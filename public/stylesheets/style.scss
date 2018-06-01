@@ -1,0 +1,44 @@
+#main-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+  #mainTitle {
+    font-size: 40px;
+     color: darkblue;
+     font-family: helvetica;
+  }
+ 
+  .info {
+    //text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkblue;
+    margin: 10px;
+    width: 600px;
+    height: 80px;
+    
+    .icon {
+      height: 64px;
+      width: 47px;
+      margin: 5px;
+     }
+
+  .titles {
+    font-family: helvetica;
+    font-size: 40px;
+    color: darkblue;
+    }
+    .likes {
+      font-family: helvetica;
+      color: blue;
+      font-size: 25px;
+      margin-left: 15px;
+    }
+  }
+  .image {
+    width: 600px;
+    margin: 10px;
+  }
+}
