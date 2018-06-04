@@ -10,9 +10,6 @@ $.ajax({
 })
 })
 
-
-
-
 $('#add').on('click', function(){
   //console.log($(this).attr('data-id'))
   //console.log($('.enterData').val())
