@@ -1,3 +1,39 @@
+#addData {
+  border: 1px solid darkblue;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  float: left;
+  margin-top: 110px;
+  margin-left: 80px; }
+  #addData #agregar {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue; }
+  #addData input {
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    font-family: helvetica;
+    color: darkblue;
+    display: block; }
+  #addData #add {
+    border: none;
+    background-color: darkblue;
+    font-weight: bold;
+    font-family: helvetica;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 15px; }
+  #addData #add:hover {
+    background-color: darkcyan;
+    border: none; }
+
 #main-container {
   display: flex;
   flex-direction: column;
@@ -13,7 +49,8 @@
     border: 2px solid darkblue;
     margin: 10px;
     width: 600px;
-    height: 80px; }
+    height: 80px;
+    border-radius: 5px; }
     #main-container .info .icon {
       height: 64px;
       width: 47px;
@@ -29,6 +66,7 @@
       margin-left: 15px; }
   #main-container .image {
     width: 600px;
-    margin: 10px; }
+    margin: 10px;
+    border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */

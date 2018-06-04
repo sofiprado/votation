@@ -13,5 +13,21 @@ $.ajax({
 
 
 
+$('#add').on('click', function(){
+  //console.log($(this).attr('data-id'))
+  //console.log($('.enterData').val())
+  //console.log($('.enterImg').val())
+  $.ajax({
+    method: 'POST', 
+    url: "http://localhost:3000/agregar",
+    data: {
+     nombre: $('.enterData').val(),
+     imagen: $('.enterImg').val()  
+    }
+  })   
+  $('.enterData').val('')
+  $('.enterImg').val('')
+})
+
 
 

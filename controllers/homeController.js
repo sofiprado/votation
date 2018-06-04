@@ -29,7 +29,6 @@ self.home = function(req, res, next) {
 module.exports = self;
 
 
-module.exports = self;
 
 
 
