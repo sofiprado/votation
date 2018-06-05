@@ -1,7 +1,3 @@
-<!--<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,20 +9,9 @@
 </head>
 <body>
 
-  <div id="addData">
-    <p id="agregar">AGREGAR</p>
-   
-      <p class="newData">NOMBRE</p>
-      <input type="text" class="enterData newData">
-      <p class="newData">IMAGEN</p>
-      <input type="text" class="enterImg newData">
-      <button data-id="add" id="add">ENVIAR</button>
-   
-  </div>
 
 <div id="main-container">
  
-  
   <h1 id="mainTitle">Vacaciones en:</h1>
     {{#each data}}
      <img class="image" src="{{this.img}}"/>
