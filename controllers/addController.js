@@ -10,14 +10,14 @@ self.agregar = function(req, res) {
   const findId = homeData.length
   const newIds = homeData[findId-1].id 
     
-  homeData.push({
+  homeData.unshift({
     img: req.body.imagen,
     title: req.body.nombre,
     id: newIds +1,
     likes: 0
   })
 
-  homeData.reverse()
+  //homeData.reverse()
 
   // console.log(homeData) 
   res.json(homeData)

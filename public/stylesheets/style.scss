@@ -1,6 +1,8 @@
 body {
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
 #addData {
   border: 1px solid darkblue;
   width: 800px;
@@ -10,8 +12,7 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  margin-top: 110px;
-  margin-left: 80px;
+
   //position: fixed;
   
   #agregar {
